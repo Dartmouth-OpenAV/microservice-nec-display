@@ -1,8 +1,12 @@
 # NEC display microservice
 
-RESTful microservice for controlling NEC flat panel displays
+This is a RESTful microservice for controlling NEC flat panel displays.  It is written in php, not golang as the rest of the microservices are.  It does not use microservice_framework.go.
 
 The desktop application "[NEC PD Comms Tool](https://www.sharpnecdisplays.eu/p/eeme/en/products/software/details/t/Software/Displays/rp/PDCommsTool.xhtml)" is very useful for testing and debugging.  It contains a send/receive communications log so you can see all the commands and responses.
+
+[70" LED Backlit Commercial-Grade Display](https://www.sharpnecdisplays.us/products/displays/e705)
+
+![](https://github.com/Dartmouth-OpenAV/microservice-nec-display/blob/main/front.png)
 
 End Point - http://localhost:8383/{{host}}  
   
